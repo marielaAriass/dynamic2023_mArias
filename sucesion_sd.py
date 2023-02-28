@@ -11,10 +11,14 @@ Original file is located at
 def sucesion(n):
   n = 10
   lista =[]
+  l = []
   for i in range (1,n+1):
     s = '\\frac{1}{10}^'+str(i)+'}'
+    sc = 1/10**i
     lista.append(s)
+    l.append(sc)
   print(lista)
+  print(l)
 
 #n = int(input("Cual es n:"))
 sucesion(n)
